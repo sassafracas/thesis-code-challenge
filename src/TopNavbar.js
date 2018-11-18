@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Nav, Navbar, NavItem, Button } from 'react-bootstrap';
 
 class TopNavbar extends Component {
 
   render(){
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar staticTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">My Web Now</a>
@@ -13,7 +13,16 @@ class TopNavbar extends Component {
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight }>
+          <Nav pullRight>
+            <NavItem eventKey={1} href="#login">
+              Login
+            </NavItem>
+            <NavItem eventKey={2} href="#support">
+              <Button bsStyle="success">Support</Button>
+
+            </NavItem>
+          </Nav>
+          <Nav pullRight style={{paddingRight: "10%"}}>
             <NavItem eventKey={1} href="#home">
               Home
             </NavItem>
@@ -22,14 +31,6 @@ class TopNavbar extends Component {
             </NavItem>
             <NavItem eventKey={3} href="#contact">
               Contact Us
-            </NavItem>
-          </Nav>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="#login">
-              Login
-            </NavItem>
-            <NavItem eventKey={2} href="#support">
-              Support
             </NavItem>
           </Nav>
         </Navbar.Collapse>
