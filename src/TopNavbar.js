@@ -5,7 +5,7 @@ class TopNavbar extends Component {
 
   render(){
     return (
-      <Navbar staticTop collapseOnSelect>
+      <Navbar staticTop collapseOnSelect style={{backgroundColor:"transparent", borderColor:"transparent", color:"#FFF"}}>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">My Web Now</a>
