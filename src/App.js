@@ -7,9 +7,11 @@ import Content from './Content';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div >
+        <div className="App">
         <TopNavbar/>
         <Content />
+        </div>
         <Footer/>
       </div>
     );
