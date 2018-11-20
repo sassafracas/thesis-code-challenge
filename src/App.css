@@ -31,8 +31,23 @@
   color: white;
 }
 
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.white-content {
+  color: #FFF
+}
+
+.Top-color-text {
+  color: #9DE7B4
 }
 
 @keyframes App-logo-spin {

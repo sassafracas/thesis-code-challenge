@@ -6,7 +6,9 @@ class Content extends Component {
   render() {
     return(
       <div>
-      <PageHeader>Get a website in 15 minutes or less.</PageHeader>
+          <h2 className="white-content" style={{display: "inline"}}>Get a website in 15 minutes</h2>
+          <h2 className="Top-color-text" style={{display: "inline"}}> or less.</h2>
+
       <Form inline>
       <FormGroup>
         <FormControl>
@@ -14,13 +16,14 @@ class Content extends Component {
         <Button bsStyle="success">Search</Button>
       </FormGroup>
     </Form>
-      <p>Learn how we can enchance your business.</p>
+      <p className="white-content">Learn how we can enchance your business.</p>
       <img src={bottomicon} className="Arrow-bot" alt="arrow" />
       <p>
         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
       </p>
       <Button bsStyle="primary">Create your account</Button>
       <p>Our Services</p>
+      <hr style={{width: "40px", borderColor : "black"}}/>
       <Grid fluid>
         <Row>
           <Col xs={6} md={6}>
