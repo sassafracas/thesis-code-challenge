@@ -6,8 +6,8 @@ class Content extends Component {
   render() {
     return(
       <div>
-          <h2 className="white-content" style={{display: "inline"}}>Get a website in 15 minutes</h2>
-          <h2 className="Top-color-text" style={{display: "inline"}}> or less.</h2>
+          <h2 className="white-content" style={{display: "inline", fontWeight: "bold"}}>Get a website in <br/> 15 minutes</h2>
+          <h2 className="Top-color-text" style={{display: "inline", fontWeight: "bold"}}> or less.</h2>
 
       <Form inline>
       <FormGroup>
@@ -32,7 +32,7 @@ class Content extends Component {
                 <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
               </Media.Left>
               <Media.Body>
-                <Media.Heading>Web Hosting</Media.Heading>
+                <Media.Heading>WEB HOSTING</Media.Heading>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
                   ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
@@ -48,7 +48,7 @@ class Content extends Component {
                 <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
               </Media.Left>
               <Media.Body>
-                <Media.Heading>Resellers</Media.Heading>
+                <Media.Heading>RESELLERS</Media.Heading>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
                   ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
@@ -66,7 +66,7 @@ class Content extends Component {
                 <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
               </Media.Left>
               <Media.Body>
-                <Media.Heading>VPS Hosting</Media.Heading>
+                <Media.Heading>VPS HOSTING</Media.Heading>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
                   ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
@@ -82,7 +82,7 @@ class Content extends Component {
                 <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
               </Media.Left>
               <Media.Body>
-                <Media.Heading>Cloud Hosting</Media.Heading>
+                <Media.Heading>CLOUD HOSTING</Media.Heading>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
                   ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
