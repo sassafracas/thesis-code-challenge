@@ -26,6 +26,10 @@
   border-radius:100px;
 }
 
+.social-icon {
+  height: 3vmin;
+  padding-bottom: 5px
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,6 +39,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.col-md-2.col-xs-2 {
+  /* padding: 10px inherit 10px inherit; */
+  padding-bottom: 10px
 }
 
 .navbar-default .navbar-brand {
@@ -47,6 +56,16 @@
 /* .nav .navbar-nav li.navbar-right {
   text-align: center
 } */
+
+.footer-header {
+  font-weight: bold
+}
+
+.footer-icon {
+  margin-right: 0;
+  padding-right: 0;
+  text-align: right;
+}
 
 .App-link {
   color: #61dafb;

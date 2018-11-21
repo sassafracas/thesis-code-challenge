@@ -33,7 +33,7 @@ class Content extends Component {
       <Grid fluid style={{margin: "0 10% 0 10%"}}>
         <Row>
 
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <Well className="well">
             <Media>
               <Media.Left align="middle">
@@ -52,7 +52,7 @@ class Content extends Component {
             </Well>
           </Col>
 
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <Well>
             <Media>
               <Media.Left align="middle">
@@ -72,7 +72,7 @@ class Content extends Component {
           </Col>
         </Row>
         <Row>
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <Well>
             <Media>
               <Media.Left align="middle">
@@ -90,7 +90,7 @@ class Content extends Component {
             </Media>
             </Well>
           </Col>
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <Well>
             <Media>
               <Media.Left align="middle">
@@ -112,11 +112,11 @@ class Content extends Component {
       </Grid>
       <Grid>
         <Row className="bottom-row">
-          <Col xs={6} md={6}>
-            <p style={{color:"#7270DE", fontSize:"19px", textAlign:"left", marginBottom:"5px"}}>Are you ready?</p>
+          <Col xs={4} md={6}>
+            <p style={{color:"#7270DE", fontSize:"19px", textAlign:"left", paddingBottom:"5px"}}>Are you ready?</p>
             <p style={{color:"#4B2E8F", fontSize: "19px", textAlign:"left"}}>create an account, or contact us.</p>
           </Col>
-          <Col xs={6} md={6}>
+          <Col xs={4} md={6}>
             <Button style={{backgroundColor:"#7472DC", color:"#FFF", fontWeight:"bold"}}>CREATE YOUR ACCOUNT</Button>{' '}
             <Button style={{fontWeight: "bold", boxShadow: "0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.12)"}}>CONTACT US</Button>
           </Col>
