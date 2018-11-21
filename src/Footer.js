@@ -43,8 +43,8 @@ class Footer extends Component {
           </Row>
           <Row>
             <Col xs={2} md={2}>
-              1 Main St.
-              Floor 6,
+              1 Main St. <br/>
+            Floor 6, <br/>
               New York, NY 10005
             </Col>
             <Col xs={2} md={2}>

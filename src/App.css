@@ -3,14 +3,15 @@
   background: linear-gradient(
     170deg,
     rgba(116,54,205,1) 0%,
-    rgba(119,66,221,1) 15%,
-    rgba(116,78,212,1) 15%,
-    rgba(117,90,226,1) 47%,
-    rgba(116,114,220,1) 47%,
-    rgba(112,110,212,1) 60%,
-    rgba(112,110,212,0) 60%,
-    rgba(112,110,212,0) 100%
-
+    rgba(119,66,221,1) 8%,
+    rgba(116,78,212,1) 8%,
+    rgba(117,90,226,1) 31%,
+    rgba(116,114,220,1) 31%,
+    rgba(112,110,212,1) 43.5%,
+    rgba(255,255,255,1) 43.5%,
+    rgba(255,255,255,1) 80%,
+    rgba(246,249,252,1) 80%,
+    rgba(246,249,252,1) 100%
     ),
     fixed;
 
@@ -18,6 +19,11 @@
 
 .Arrow-bot {
   height: 5vmin;
+  width:5vmin;
+  margin: 0 0% 10% 0;
+  background-color: #eed;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.12);
+  border-radius:100px;
 }
 
 .App-header {
@@ -38,6 +44,10 @@
     color: #FFF;
 }
 
+/* .nav .navbar-nav li.navbar-right {
+  text-align: center
+} */
+
 .App-link {
   color: #61dafb;
 }
@@ -46,10 +56,41 @@
   color: #FFF
 }
 
+p.white-content {
+  margin: 15% 0% 10px 0
+}
+
 .Top-color-text {
   color: #9DE7B4
 }
 
+.header-h2 {
+  padding-top: 10%;
+  padding-bottom: 40px
+}
+
+.search-input {
+  min-width: 250px;
+  max-width: 1fr
+}
+
+h4.media-heading {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+}
+.well {
+  background-color: #FCFCFD;
+  padding-left: 0
+}
+
+p.well-p {
+  text-align: left;
+}
+
+.bottom-row {
+  margin: 2% 0 4% 0
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
