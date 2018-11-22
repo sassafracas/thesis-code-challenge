@@ -5,7 +5,7 @@ class TopNavbar extends Component {
 
   render(){
     return (
-      <Navbar staticTop collapseOnSelect style={{backgroundColor:"transparent", borderColor:"transparent"}}>
+      <Navbar staticTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#brand">My Web Now</a>
@@ -19,10 +19,9 @@ class TopNavbar extends Component {
             </NavItem>
             <NavItem eventKey={2} href="#support">
               <Button bsStyle="success">Support</Button>
-
             </NavItem>
           </Nav>
-          <Nav pullRight style={{paddingRight: "10vw"}}>
+          <Nav pullRight>
             <NavItem eventKey={1} href="#home">
               Home
             </NavItem>

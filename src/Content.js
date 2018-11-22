@@ -12,8 +12,8 @@ class Content extends Component {
     return(
       <div>
         <div className="header-h2">
-          <h1 className="white-content" style={{display: "inline", fontWeight: "bold", fontSize: "50px"}}>Get a website in <br/> 15 minutes</h1>
-          <h1 className="Top-color-text" style={{display: "inline", fontWeight: "bold", fontSize: "50px"}}> or less.</h1>
+          <h1 className="white-content large">Get a website in <br/> 15 minutes</h1>
+          <h1 className="top-color-text"> or less.</h1>
         </div>
       <Form inline>
       <FormGroup>
@@ -24,12 +24,12 @@ class Content extends Component {
     </Form>
       <p className="white-content">LEARN HOW WE CAN ENHANCE YOUR BUSINESS</p>
       <img src={bottomicon} className="Arrow-bot" alt="arrow" />
-      <p style={{lineHeight: 1.5, margin: "0 20vw 2vw 20vw", fontSize: "18px"}}>
+      <p className="middle-paragraph">
         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
       </p>
-      <Button style={{backgroundColor:"#7472DC", color: "#FFF", fontWeight: "bold"}}>CREATE YOUR ACCOUNT</Button>
-      <p style={{padding: "5% 0 0 0", fontSize: "19px"}}>Our Services</p>
-      <hr style={{width: "40px", borderColor : "black", marginTop:"1px"}}/>
+      <Button className="create-account-btn">CREATE YOUR ACCOUNT</Button>
+      <p className="services">Our Services</p>
+      <hr/>
       <Grid fluid style={{margin: "0 10% 0 10%"}}>
         <Row>
 
@@ -37,7 +37,7 @@ class Content extends Component {
             <Well className="well">
             <Media>
               <Media.Left align="middle">
-                <img width={64} height={64} src={webhostingImg} alt="thumbnail" />
+                <img width={64} height={64} src={webhostingImg} alt="web hosting" />
               </Media.Left>
               <Media.Body align="middle">
                 <Media.Heading>WEB HOSTING →</Media.Heading>
@@ -56,7 +56,7 @@ class Content extends Component {
             <Well>
             <Media>
               <Media.Left align="middle">
-                <img width={64} height={64} src={resellersImg} alt="thumbnail" />
+                <img width={64} height={64} src={resellersImg} alt="resellers" />
               </Media.Left>
               <Media.Body>
                 <Media.Heading>RESELLERS →</Media.Heading>
@@ -76,7 +76,7 @@ class Content extends Component {
             <Well>
             <Media>
               <Media.Left align="middle">
-                <img width={64} height={64} src={vpsImg} alt="thumbnail" />
+                <img width={64} height={64} src={vpsImg} alt="vps hosting" />
               </Media.Left>
               <Media.Body>
                 <Media.Heading>VPS HOSTING →</Media.Heading>
@@ -94,7 +94,7 @@ class Content extends Component {
             <Well>
             <Media>
               <Media.Left align="middle">
-                <img width={64} height={64} src={cloudImg} alt="thumbnail" />
+                <img width={64} height={64} src={cloudImg} alt="cloud hosting" />
               </Media.Left>
               <Media.Body>
                 <Media.Heading>CLOUD HOSTING →</Media.Heading>
@@ -113,12 +113,12 @@ class Content extends Component {
       <Grid>
         <Row className="bottom-row">
           <Col xs={11} md={6}>
-            <p style={{color:"#7270DE", fontSize:"19px", textAlign:"left", paddingBottom:"5px"}}>Are you ready?</p>
-            <p style={{color:"#4B2E8F", fontSize: "19px", textAlign:"left"}}>create an account, or contact us.</p>
+            <p className="ready-p">Are you ready?</p>
+            <p className="create-p">create an account, or contact us.</p>
           </Col>
           <Col xs={11} md={6}>
-            <Button style={{backgroundColor:"#7472DC", color:"#FFF", fontWeight:"bold"}}>CREATE YOUR ACCOUNT</Button>{' '}
-            <Button style={{fontWeight: "bold", boxShadow: "0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.12)"}}>CONTACT US</Button>
+            <Button className="create-account-btn">CREATE YOUR ACCOUNT</Button>{' '}
+            <Button className="contact-btn">CONTACT US</Button>
           </Col>
         </Row>
       </Grid>

@@ -8,7 +8,7 @@ class Footer extends Component {
 
   render(){
     return (
-      <footer style={{backgroundColor: "#7472DC", color: "white", padding: "5vw 5vw 5vw 5vw"}}>
+      <footer>
         <Grid>
           <Row>
             <Col xsHidden smHidden md={1} className="footer-icon">📞</Col>
@@ -30,16 +30,16 @@ class Footer extends Component {
           </Row>
           <Row>
             <Col xsHidden smHidden md={1} className="footer-icon">✉️</Col>
-            <Col xs={6} md={3}>
+            <Col xs={6} sm={2} md={3}>
               hello@webnow.com
             </Col>
-            <Col xs={2} md={2} xsOffset={5} xsPull={2} mdPull={0} mdOffset={0}>
+            <Col xs={2} sm={1} md={2} xsOffset={5} xsPull={2} smPull={4} mdPull={0} mdOffset={0}>
               About Us
             </Col>
-            <Col xs={2} md={2} xsPull={1} mdOffset={0} mdPull={0}>
+            <Col xs={2} sm={1} smPull={2} md={2} xsPull={1} mdOffset={0} mdPull={0}>
               Web Hosting
             </Col>
-            <Col xs={2} md={2} xsPull={0} mdPull={0}>
+            <Col xs={2} sm={1} md={2} xsPull={0} mdPull={0}>
               Transfer domains
             </Col>
             <Col xsHidden smHidden md={1}>
