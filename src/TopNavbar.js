@@ -22,7 +22,7 @@ class TopNavbar extends Component {
 
             </NavItem>
           </Nav>
-          <Nav pullRight style={{paddingRight: "10%"}}>
+          <Nav pullRight style={{paddingRight: "10vw"}}>
             <NavItem eventKey={1} href="#home">
               Home
             </NavItem>

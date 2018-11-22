@@ -41,9 +41,8 @@
   color: white;
 }
 
-.col-md-2.col-xs-2 {
-  /* padding: 10px inherit 10px inherit; */
-  padding-bottom: 10px
+.footer-address {
+  margin-bottom: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -53,9 +52,10 @@
     color: #FFF;
 }
 
-/* .nav .navbar-nav li.navbar-right {
-  text-align: center
-} */
+.navbar-right {
+  align-items: center;
+  justify-content: center;
+}
 
 .footer-header {
   font-weight: bold
@@ -91,6 +91,10 @@ p.white-content {
 .search-input {
   min-width: 250px;
   max-width: 1fr
+}
+
+html body div#root div div.App nav.navbar.navbar-default.navbar-static-top div.container div.navbar-collapse.collapse.in ul.nav.navbar-nav.navbar-right {
+	padding-right: 10vw;
 }
 
 h4.media-heading {

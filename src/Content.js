@@ -24,7 +24,7 @@ class Content extends Component {
     </Form>
       <p className="white-content">LEARN HOW WE CAN ENHANCE YOUR BUSINESS</p>
       <img src={bottomicon} className="Arrow-bot" alt="arrow" />
-      <p style={{lineHeight: 1.5, padding: "0 23% 2% 23%", fontSize: "18px"}}>
+      <p style={{lineHeight: 1.5, margin: "0 20vw 2vw 20vw", fontSize: "18px"}}>
         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
       </p>
       <Button style={{backgroundColor:"#7472DC", color: "#FFF", fontWeight: "bold"}}>CREATE YOUR ACCOUNT</Button>
@@ -112,11 +112,11 @@ class Content extends Component {
       </Grid>
       <Grid>
         <Row className="bottom-row">
-          <Col xs={4} md={6}>
+          <Col xs={11} md={6}>
             <p style={{color:"#7270DE", fontSize:"19px", textAlign:"left", paddingBottom:"5px"}}>Are you ready?</p>
             <p style={{color:"#4B2E8F", fontSize: "19px", textAlign:"left"}}>create an account, or contact us.</p>
           </Col>
-          <Col xs={4} md={6}>
+          <Col xs={11} md={6}>
             <Button style={{backgroundColor:"#7472DC", color:"#FFF", fontWeight:"bold"}}>CREATE YOUR ACCOUNT</Button>{' '}
             <Button style={{fontWeight: "bold", boxShadow: "0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.12)"}}>CONTACT US</Button>
           </Col>
