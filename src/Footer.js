@@ -25,25 +25,25 @@ class Footer extends Component {
               Others
             </Col>
             <Col  xsHidden smHidden md={1}>
-              <img className="social-icon" src={facebookIcon}></img>
+              <a href="https://www.facebook.com"><img className="social-icon" src={facebookIcon}></img></a>
             </Col>
           </Row>
           <Row>
             <Col xsHidden smHidden md={1} className="footer-icon">✉️</Col>
             <Col xs={6} sm={2} md={3}>
-              hello@webnow.com
+              <a href="mailto:hello@webnow.com">hello@webnow.com</a>
             </Col>
             <Col xs={2} sm={1} md={2} xsOffset={5} xsPull={2} smPull={4} mdPull={0} mdOffset={0}>
-              About Us
+              <a href="#about">About Us</a>
             </Col>
             <Col xs={2} sm={1} smPull={2} md={2} xsPull={1} mdOffset={0} mdPull={0}>
-              Web Hosting
+              <a href="#webhosting">Web Hosting</a>
             </Col>
             <Col xs={2} sm={1} md={2} xsPull={0} mdPull={0}>
-              Transfer domains
+              <a href="#transfer">Transfer domains</a>
             </Col>
             <Col xsHidden smHidden md={1}>
-              <img className="social-icon" src={youtubeIcon}></img>
+              <a href="https://www.youtube.com"><img className="social-icon" src={youtubeIcon}></img></a>
             </Col>
           </Row>
           <Row>
@@ -52,16 +52,16 @@ class Footer extends Component {
                <p className="footer-address">1 Main St.</p>
             </Col>
             <Col xs={3} md={2}>
-              News
+              <a href="#news">News</a>
             </Col>
             <Col xs={3} md={2}>
-              Cloud Hosting
+              <a href="#cloudhosting">Cloud Hosting</a>
             </Col>
             <Col xs={3} md={2}>
-              Customer Portal
+              <a href="#customers">Customer Portal</a>
             </Col>
             <Col xsHidden smHidden xs={1} md={1}>
-              <img className="social-icon" src={twitterIcon}></img>
+              <a href="https://www.twitter.com"><img className="social-icon" src={twitterIcon}></img></a>
             </Col>
           </Row>
           <Row>
@@ -70,13 +70,13 @@ class Footer extends Component {
               <p className="footer-address middle-address">Floor 3,</p>
             </Col>
             <Col xs={3} md={2}>
-              FAQ
+              <a href="#faq">FAQ</a>
             </Col>
             <Col xs={3} md={2}>
-              VPS Servers
+              <a href="#vps">VPS Servers</a>
             </Col>
             <Col xs={3} md={2}>
-              Support Portal
+              <a href="#support">Support Portal</a>
             </Col>
             <Col xsHidden smHidden md={1}>
 
@@ -88,13 +88,13 @@ class Footer extends Component {
               <p className="footer-address">New York, NY 10005</p>
             </Col>
             <Col xs={3} md={2}>
-              Contact Us
+              <a href="#transfer">Contact Us</a>
             </Col>
             <Col xs={3} md={2}>
-              Domain Names
+              <a href="#transfer">Domain Names</a>
             </Col>
             <Col xs={3} md={2}>
-              Video Tutorials
+              <a href="#transfer">Video Tutorials</a>
             </Col>
             <Col xsHidden smHidden md={1}>
 
