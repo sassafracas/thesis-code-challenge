@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup, PageHeader, FormControl, Button, Grid, Row, Col, Media, Form, Well } from 'react-bootstrap';
+import { FormGroup, FormControl, Button, Grid, Row, Col, Media, Form, Well } from 'react-bootstrap';
 import bottomicon from './arrow-circle-bottom.svg';
 import webhostingImg from './webhosting.png';
 import cloudImg from './cloud.png';

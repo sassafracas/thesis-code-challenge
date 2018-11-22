@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import youtubeIcon from './youtube.svg';
 import twitterIcon from './twitter.svg';
 import facebookIcon from './facebook.svg';
@@ -11,7 +11,7 @@ class Footer extends Component {
       <footer>
         <Grid>
           <Row>
-            <Col xsHidden smHidden md={1} className="footer-icon">📞</Col>
+            <Col xsHidden smHidden md={1} className="footer-icon"><span role="img" aria-label="telephone">📞</span></Col>
             <Col xs={3} md={3} className="footer-header">
                + 1 800 WEBSITE
             </Col>
@@ -25,11 +25,11 @@ class Footer extends Component {
               Others
             </Col>
             <Col  xsHidden smHidden md={1}>
-              <a href="https://www.facebook.com"><img className="social-icon" src={facebookIcon}></img></a>
+              <a href="https://www.facebook.com"><img className="social-icon" src={facebookIcon} alt="facebook"></img></a>
             </Col>
           </Row>
           <Row>
-            <Col xsHidden smHidden md={1} className="footer-icon">✉️</Col>
+            <Col xsHidden smHidden md={1} className="footer-icon"><span role="img" aria-label="email">✉️</span></Col>
             <Col xs={6} sm={2} md={3}>
               <a href="mailto:hello@webnow.com">hello@webnow.com</a>
             </Col>
@@ -43,11 +43,11 @@ class Footer extends Component {
               <a href="#transfer">Transfer domains</a>
             </Col>
             <Col xsHidden smHidden md={1}>
-              <a href="https://www.youtube.com"><img className="social-icon" src={youtubeIcon}></img></a>
+              <a href="https://www.youtube.com"><img className="social-icon" src={youtubeIcon} alt="youtube"></img></a>
             </Col>
           </Row>
           <Row>
-            <Col xsHidden smHidden md={1} className="footer-icon">📌</Col>
+            <Col xsHidden smHidden md={1} className="footer-icon"><span role="img" aria-label="pin">📌</span></Col>
             <Col xs={3} md={3}>
                <p className="footer-address">1 Main St.</p>
             </Col>
@@ -61,7 +61,7 @@ class Footer extends Component {
               <a href="#customers">Customer Portal</a>
             </Col>
             <Col xsHidden smHidden xs={1} md={1}>
-              <a href="https://www.twitter.com"><img className="social-icon" src={twitterIcon}></img></a>
+              <a href="https://www.twitter.com"><img className="social-icon" src={twitterIcon} alt="twitter"></img></a>
             </Col>
           </Row>
           <Row>
